@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Spinner
+        android:id="@+id/sSortingType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/ranking_table_bottom"
+        android:layout_marginTop="@dimen/ranking_table_top"
+        android:scrollbars="none"
+        android:layout_weight="1">
+    <TableLayout
+        android:id="@+id/tlRanking"
+        android:layout_marginTop="@dimen/ranking_table_maging_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:paddingStart="@dimen/ranking_table_pad_start"
+        android:paddingEnd="@dimen/ranking_table_pad_end">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_header_border" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/table_header_rank" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/table_header_player_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/table_header_total" />
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>

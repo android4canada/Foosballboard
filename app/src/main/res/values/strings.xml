@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Foosball board</string>
+    <string name="main_load_file_btn">Load Scores</string>
+    <string name="menu_ranking">Ranking</string>
+    <string name="menu_database">Historical</string>
+    <string name="table_header_rank">Rank</string>
+    <string name="table_header_player_name">Name</string>
+    <string name="table_header_total">Total</string>
+    <string name="main_file_picker_title">Choose data file</string>
+    <string name="progress_reading_file">Reading file</string>
+    <string name="dialog_error">Error</string>
+    <string name="dialog_ok_btn">OK</string>
+    <string name="file_loading_error_msg">File couldn\'t be loaded successfully. Try another file please</string>
+
+    <string-array name="sorting_type">
+        <item>Rank by Wins</item>
+        <item>Rank by Games</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="history_diag_loading">Loading</string>
+    <string name="add_score_player1">Player 1:</string>
+    <string name="add_score_score1">Player 1 Score:</string>
+    <string name="add_score_player2">Player 2:</string>
+    <string name="add_score_score2">Player 2 Score:</string>
+    <string name="diag_add_score_title">Add New Score</string>
+    <string name="diag_add_score_positive_btn">Add</string>
+    <string name="diag_add_score_negative_btn">Cancel</string>
+    <string name="diag_add_score_err_emptyfields">Please fill in all the fields</string>
+    <string name="history_diag_adding">Adding</string>
+    <string name="history_add_score_err">Adding score operation has failed</string>
+    <string name="main_reading_file_err">Reading file failed</string>
+    <string name="main_reading_file_empty_err">Empty file</string>
+    <string name="main_reading_file_warning">Some lines were ignored due to errors</string>
+    <string name="main_reading_file_db_err">Failed adding data</string>
+    <string name="main_use_current_btn">Use Current</string>
+    <string name="ranking_diag_loading">Loading</string>
+    <string name="history_delete_score_err">Deletion operation failed</string>
+    <string name="diag_edit_score_positive_btn">Save</string>
+    <string name="history_diag_saving">Saving</string>
+    <string name="history_edit_score_err">Edit operation failed</string>
+</resources>

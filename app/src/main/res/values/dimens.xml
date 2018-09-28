@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="ranking_table_pad_start">2dp</dimen>
+    <dimen name="ranking_table_pad_end">2dp</dimen>
+    <dimen name="ranking_table_maging_top">30dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="history_row_top_pad">5dp</dimen>
+    <dimen name="history_row_bottom_pad">5dp</dimen>
+    <dimen name="player_name_start">16dp</dimen>
+    <dimen name="player_name2_gap">30dp</dimen>
+    <dimen name="score1_left">32dp</dimen>
+    <dimen name="add_score_player_to_score">24dp</dimen>
+    <dimen name="add_score_padding">8dp</dimen>
+    <dimen name="add_score_entry_top">32dp</dimen>
+    <dimen name="ranking_table_top">32dp</dimen>
+    <dimen name="ranking_table_bottom">10dp</dimen>
+    <dimen name="history_row_top_margin">15dp</dimen>
+    <dimen name="history_row_bottom_margin">15dp</dimen>
+</resources>

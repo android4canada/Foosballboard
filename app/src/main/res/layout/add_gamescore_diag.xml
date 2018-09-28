@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/add_score_padding">
+
+    <TextView
+        android:id="@+id/tvPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_score_entry_top"
+        android:text="@string/add_score_player1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/tvScore1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_score_entry_top"
+        android:text="@string/add_score_score1"
+        app:layout_constraintStart_toStartOf="@+id/tvPlayer1"
+        app:layout_constraintTop_toBottomOf="@+id/tvPlayer1" />
+
+    <TextView
+        android:id="@+id/tvPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_score_entry_top"
+        android:text="@string/add_score_player2"
+        app:layout_constraintStart_toStartOf="@+id/tvScore1"
+        app:layout_constraintTop_toBottomOf="@+id/tvScore1" />
+
+    <TextView
+        android:id="@+id/tvScore2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_score_entry_top"
+        android:text="@string/add_score_score2"
+        app:layout_constraintStart_toStartOf="@+id/tvPlayer2"
+        app:layout_constraintTop_toBottomOf="@+id/tvPlayer2" />
+
+    <EditText
+        android:id="@+id/etPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/add_score_player_to_score"
+        android:ems="10"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPlayer1"
+        app:layout_constraintStart_toEndOf="@+id/tvScore1"
+        app:layout_constraintTop_toTopOf="@+id/tvPlayer1" />
+
+    <EditText
+        android:id="@+id/etScore1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/tvScore1"
+        app:layout_constraintStart_toStartOf="@+id/etPlayer1"
+        app:layout_constraintTop_toTopOf="@+id/tvScore1" />
+
+    <EditText
+        android:id="@+id/etPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPlayer2"
+        app:layout_constraintStart_toStartOf="@+id/etPlayer1"
+        app:layout_constraintTop_toTopOf="@+id/tvPlayer2" />
+
+    <EditText
+        android:id="@+id/etScore2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/tvScore2"
+        app:layout_constraintStart_toStartOf="@+id/etPlayer1"
+        app:layout_constraintTop_toTopOf="@+id/tvScore2" />
+</android.support.constraint.ConstraintLayout>
